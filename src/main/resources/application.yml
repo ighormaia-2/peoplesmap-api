@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: Peoples Map
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/peoplesmap
+    username: postgres
+    password: Postgres
+
+  jpa:
+    show_sql: false
+    generate-ddl: false
+    hibernate:
+      ddl-auto: create
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+server:
+  port: 8000
