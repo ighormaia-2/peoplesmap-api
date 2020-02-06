@@ -7,11 +7,11 @@ Com a linguagem java na versão 8.
 O projeto pode ser rodado localmente, através dos comandos:
 
 
-### `npm clean install`
+### `mvn clean install`
 Para instalar todas dependencias
 
 
-### `npm spring-boot:run`
+### `mvn spring-boot:run`
 Para iniciar a aplicação
 
 
